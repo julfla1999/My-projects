@@ -31,7 +31,7 @@ public class Notebook {
 
     public void checkYearAndPrice() {
         if (this.year > 2019 && this.price > 1600) {
-            System.out.println("This notebook is e new model so the price is higher.");
+            System.out.println("This notebook is a new model so the price is higher.");
         } else if (this.year > 2019 && this.price < 1600) {
             System.out.println("This notebook is a new model but the price is low so it's a very good offer.");
         } else if (this.year < 2019 && this.price < 1000) {
