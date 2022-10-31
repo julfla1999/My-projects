@@ -5,9 +5,9 @@ import java.util.Objects;
 public class Stamp {
     private String stampName;
     private String stampSize;
-    private String isThereAPostmark;
+    private boolean isThereAPostmark;
 
-    public Stamp(String stampName, String stampSize, String isThereAPostmark) {
+    public Stamp(String stampName, String stampSize, boolean isThereAPostmark) {
         this.stampName = stampName;
         this.stampSize = stampSize;
         this.isThereAPostmark = isThereAPostmark;
@@ -21,7 +21,7 @@ public class Stamp {
         return stampSize;
     }
 
-    public String getIsThereAPostmark() {
+    public boolean getIsThereAPostmark() {
         return isThereAPostmark;
     }
 
