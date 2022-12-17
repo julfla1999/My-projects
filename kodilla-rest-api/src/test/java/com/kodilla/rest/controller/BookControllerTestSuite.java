@@ -32,6 +32,11 @@ class BookControllerTestSuite {
         //given
         BookService bookServiceMock = Mockito.mock(BookService.class);
         BookController bookController = new BookController(bookServiceMock);
+        //when
+        BookDto book = new BookDto("Titile", "Author");
+        bookController.addBook(book);
+        //then
+        Mockito.verify(bookServiceMock).addBook(book);
 
     }
 
