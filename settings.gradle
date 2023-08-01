@@ -1,3 +1,10 @@
-rootProject.name = 'kodilla-course'
-include 'kodilla-intro'
+rootProject.name = 'my-projects'
+include '1-java-basics'
+include '3-java-basic-tests'
+include '2-java-collections'
+include '5-java-stream'
+include '4-java-advanced-tests'
+include '7-java-spring-basic'
+include '6-java-selenium'
+include '8-java-cucumber'
 
