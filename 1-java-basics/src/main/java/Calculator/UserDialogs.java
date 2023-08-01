@@ -1,3 +1,5 @@
+package Calculator;
+
 import java.util.Scanner;
 public class UserDialogs {
     public static String getUsername() {

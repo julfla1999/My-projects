@@ -1,3 +1,5 @@
+package Calculator;
+
 public class Calculator {
     public double calculate() {
         String userSelected = UserDialogs.getUserSelection();
